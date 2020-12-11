@@ -26,3 +26,13 @@ dict5.pop(5)
 print('dict5 :',dict5)
 dict5.clear()
 print('dict5 :',dict5)
+
+dict6 = {1:'a',2:'b',3:'c',4:'d'}
+dict7 = {5:'e',6:'f'}
+print(dict6)
+print(dict7)
+dict6.update(dict7)
+print(dict6)
+
+del dict7
+print(dict7)
